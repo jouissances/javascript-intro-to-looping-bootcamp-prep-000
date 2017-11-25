@@ -11,8 +11,7 @@ let n = Math.floor(Math.random() * 100);
 
 function whileLoop(n) {
   while (n > 0) {
-    console.log('done');
     n--;
   }
-  return 
+  return 'done';
 }
