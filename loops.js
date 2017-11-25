@@ -6,6 +6,8 @@ function forLoop(array) {
   }
 }
 
+console.log(array);
+
 let n = 100;
 
 function whileLoop(n) {
