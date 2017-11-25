@@ -1,8 +1,9 @@
 let array = [];
   
 function forLoop(array) {
-  let i = 0;
-    array.push(`${i === 0 ? '' : 's'})
+  for (let i = 0; i < 25; i++) {
+    array.push(`I am ${i} strange loop${i === 0 ? '' : 's'}`);
+  }
 }
 
 let n = 100;
