@@ -6,6 +6,7 @@ function forLoop(array) {
   }
 }
 
+forLoop(array);
 console.log(array);
 
 let n = 100;
