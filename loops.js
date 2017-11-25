@@ -7,7 +7,7 @@ function forLoop(array) {
   return array;
 }
 
-let n = 100;
+let n = Math.floor(Math.random() * 100);
 
 function whileLoop(n) {
   while (n > 0) {
