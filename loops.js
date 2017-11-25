@@ -2,12 +2,7 @@ let array = [];
   
 function forLoop(array) {
   let i = 0;
-    if (i === 0) {
-      array.push(`I am 1 strange loop.`);
-    } else {
-      array.push(`I am ${i} strange loops.`);
-    }
-  return array;
+    array.push(`${i === 0 ? '' : 's'})
 }
 
 let n = 100;
